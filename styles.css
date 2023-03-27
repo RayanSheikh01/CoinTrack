@@ -1,0 +1,85 @@
+/* set body background color to white */
+body {
+    background-color: #fff;
+  }
+  
+  /* set font color for headings */
+  h1, h2 {
+    color: #008080;
+  }
+  
+  /* set background color and padding for header and footer */
+  header, footer {
+    background-color: #e6e6e6;
+    padding: 10px;
+  }
+  
+  /* style navigation links */
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #f2f2f2;
+  }
+  
+  nav li {
+    float: left;
+  }
+  
+  nav li a {
+    display: block;
+    color: #008080;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  nav li a:hover {
+    background-color: #ddd;
+  }
+  
+  /* style form labels and input fields */
+  label {
+    display: inline-block;
+    width: 150px;
+    text-align: left;
+    color: #008080;
+  }
+  
+  input[type="number"] {
+    width: 100px;
+    padding: 5px;
+    border: none;
+    border-radius: 3px;
+    background-color: #f2f2f2;
+    margin-bottom: 10px;
+  }
+  
+  input[type="submit"] {
+    background-color: #008080;
+    color: #fff;
+    padding: 8px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #006666;
+  }
+  
+  /* style section headings */
+  section {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f2f2f2;
+    border-radius: 3px;
+  }
+  
+  /* set footer font size and color */
+  footer {
+    font-size: 14px;
+    color: #333;
+  }
+  
